@@ -1,0 +1,48 @@
+<div class="app-container">
+  <h1>NgRx Classic — Demo</h1>
+  <p class="subtitle">Edukacyjna aplikacja demonstrująca 7 modułów klasycznego NgRx</p>
+
+  <mat-tab-group animationDuration="0ms" [dynamicHeight]="true">
+    <mat-tab label="1. Effects">
+      <ng-template matTabContent>
+        <app-effects-demo />
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="2. Entity">
+      <ng-template matTabContent>
+        <app-entity-demo />
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="3. Router Store">
+      <ng-template matTabContent>
+        <app-router-store-demo />
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="4. Operators">
+      <ng-template matTabContent>
+        <app-operators-demo />
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="5. Component Store">
+      <ng-template matTabContent>
+        <app-component-store-demo />
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="6. Component">
+      <ng-template matTabContent>
+        <app-component-demo />
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="7. Data">
+      <ng-template matTabContent>
+        <app-data-demo />
+      </ng-template>
+    </mat-tab>
+  </mat-tab-group>
+</div>

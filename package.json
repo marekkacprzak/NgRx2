@@ -1,0 +1,48 @@
+{
+  "name": "ngrx-classic-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "@angular-architects/ngrx-toolkit": "^21.0.1",
+    "@angular/animations": "^21.2.5",
+    "@angular/cdk": "^21.2.3",
+    "@angular/common": "^21.2.0",
+    "@angular/compiler": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0",
+    "@angular/material": "^21.2.3",
+    "@angular/platform-browser": "^21.2.0",
+    "@angular/router": "^21.2.0",
+    "@ngrx/component": "^21.0.1",
+    "@ngrx/component-store": "^21.0.1",
+    "@ngrx/data": "^21.0.1",
+    "@ngrx/effects": "^21.0.1",
+    "@ngrx/entity": "^21.0.1",
+    "@ngrx/operators": "^21.0.1",
+    "@ngrx/router-store": "^21.0.1",
+    "@ngrx/store": "^21.0.1",
+    "@ngrx/store-devtools": "^21.0.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^2.3.1",
+    "@analogjs/vitest-angular": "^2.3.1",
+    "@angular/build": "^21.2.3",
+    "@angular/cli": "^21.2.3",
+    "@angular/compiler-cli": "^21.2.0",
+    "jsdom": "^28.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
+  }
+}

@@ -1,0 +1,18 @@
+@import '@angular/material/prebuilt-themes/azure-blue.css';
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Segoe UI', sans-serif;
+  background: #fafafa;
+}
+
+button {
+  font-family: inherit;
+}
+
+code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
